@@ -1,0 +1,21 @@
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.section {
+  padding-bottom: 1em;
+  width: calc(100% - 30em);
+}
+
+.ephemeral {
+}
+
+.darkwebs {
+  padding-bottom: 2.0em;
+  margin-left: 15em;
+}
+
+.linkrot {
+  margin-left: 30em;
+}
