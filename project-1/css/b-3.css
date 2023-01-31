@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Steps Mono';
+  src: url('../fonts/Steps-Mono.otf') format('otf');
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: -0.01em;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+h5 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  font-family: "Steps Mono", sans-serif;
+  font-weight: 100;
+  color: #FF431A;
+}
+
+a {
+  color: #FF431A;
+}
+
+.super {
+  font-size: 0.83em;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
+
+.foreword {
+  font-style: italic;
+  font-weight: 600;
+  color: #333333;
+}
+.foreword p em {
+  font-style: normal;
+}

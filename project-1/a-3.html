@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wikipedia: Link Rot</title>
+  <meta name="author" content="Kevin Chen">
+  <link rel="stylesheet" href="css/a-3.css">
+
+</head>
+
+<body>
+  <main>
+    <a href="https://en.wikipedia.org/wiki/Wikipedia:Link_rot"><h2>WIKIPEDIA: LINK ROT, by <em>Wikipedia</em></h2></a>
+
+    <p><em>
+      This page is about (primarily) link rot in <a href="https://en.wikipedia.org/wiki/Wikipedia:External_links">external links</a>. For broken section links within Wikipedia, see Wikipedia:Database reports/Broken section anchors. For internal links which point to deleted or non-existent articles, see WP:REDLINKS. For other uses, see Wikipedia:Citing sources § Preventing and repairing dead links.</em></p>
+    <p>
+      Like most large <a href="https://en.wikipedia.org/wiki/Website">websites</a>, Wikipedia suffers from the phenomenon known as <a href="https://en.wikipedia.org/wiki/Link_rot"><b>link rot</b></a>, where external links become <a href="https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#Preventing_and_repairing_dead_links"><b>dead</b></a>, as the linked web pages or complete websites disappear, change their content, or move without HTML redirection. This presents a significant threat to Wikipedia’s <a href="https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources">reliability</a> policy and its <a href="https://en.wikipedia.org/wiki/Wikipedia:Citing_sources">source citation</a> guideline.
+    </p>
+    <p>
+      In general, do not delete cited information <em>solely</em> because the URL to the source does not work any longer. Tools, procedures, and processes are available as outlined in this document.
+    </p>
+
+    <h3>
+      Preventing link rot
+    </h3>
+    <p>
+      Links added by editors to the English Wikipedia mainspace are automatically saved to <a href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine</a> within about 24 hours (nb. in practice not every link is getting saved for various reasons). This is done with a program called <a href="https://github.com/internetarchive/crawling-for-nomore404/tree/master/wikipedia/producer">“NoMore404”</a> which Internet Archive runs and maintains; other language wiki sites are included. It monitors <a href="https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams">EventStreams API</a>, extracts new external URLs and adds a snapshot to the Wayback. This system became active sometime after 2015, though previous efforts were also made. Also, sometime after 2012, <a href="https://en.wikipedia.org/wiki/Archive.today">archive.today</a> (aka archive.is) attempted to archive all external links then existing on Wikipedia at that time. This was incomplete but a significant number of links were added to archive.today during this period making it a major archival source filling in gaps of coverage. Archive.today is still making some automated archives as of 2020, though the extent of coverage and frequency is unknown.
+    </p>
+    <p>
+      As of 2015, there is a Wikipedia bot and tool called <a href="https://en.wikipedia.org/wiki/User:InternetArchiveBot">WP:IABOT</a> that automates fixing link rot. It runs continuously, checking all articles on Wikipedia if a link is dead, adding archives to <a href="https://en.wikipedia.org/wiki/Wayback_Machine">Wayback Machine</a> (if not yet there), and replacing dead links in the wikitext with an archived version. This bot runs automatically but it can also be directed by end users through its web interface. It is available when viewing any page's history, located near the top of the page on the line of “External Tools“, with the “Fix dead links” option.
+    </p>
+    <p>
+      As of 2015, the periodic bot <a href="https://en.wikipedia.org/wiki/User:GreenC/WaybackMedic_2.5">WP:WAYBACKMEDIC</a> checks for link rot in the archive links themselves. Archive databases are dynamic: archives move or go missing, new ones are added, etc. This bot maintains existing archive links on English Wikipedia. It also archives resources on request at <a href="https://en.wikipedia.org/wiki/Wikipedia:URLREQ">WP:URLREQ</a>. It is a flexible tool that can carry out many custom jobs such as URL migration/move, <a href="https://en.wikipedia.org/wiki/Wikipedia:USURPURL">usurped domains</a>, soft-404 discovery and repair.
+    </p>
+
+    <h3>
+      Repairing a dead link
+    </h3>
+    <p>
+      Check for archived versions at one of the many web archive services. The “Big 3” archive services are web.archive.org, webcitation.org and archive.today. These account for over 90% of all archives on Wikipedia, with web.archive.org being over 80% of all archive links. Other archive services are listed at <a href="https://en.wikipedia.org/wiki/Wikipedia:List_of_web_archives_on_Wikipedia">WP:WEBARCHIVES</a>.
+    </p>
+
+    <h3>
+      Keeping dead links
+    </h3>
+    <p>
+      A dead, unarchived source URL may still be useful. Such a link indicates that information was (probably) verifiable in the past, and the link might provide another user with greater resources or expertise with enough information to find the reference. It could also return from the dead. With a dead link, it is possible to determine if it has been cited elsewhere, or to contact the person originally responsible for the source. For example, one could contact the Yale Computer Science department if <a href="http://www.cs.yale.edu/homes/EliYale/Defense-in-Depth-PhD-thesis.pdf">http://www.cs.yale.edu/~EliYale/Defense-in-Depth-PhD-thesis.pdf</a> <span class="super">[dead link]</span> were dead.
+    </p>
+  
+    <br>
+    <p><a href="#">Back to top</a></p>
+
+  </main>
+</body>
+
+</html>
