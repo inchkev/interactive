@@ -5,9 +5,10 @@
 
 p {
   font-family: "PP Editorial New", serif;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 300;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
 }
 p b {
   font-weight: 400;
@@ -17,18 +18,12 @@ h2, h3, h5 {
   font-family: "PP Editorial New", serif;
 }
 h4 {
+  line-height: 0;
   font-size: 0.75em;
   font-family: "Akkurat Mono", monospace;
   font-weight: 200;
   color: #aaaaaa;
   letter-spacing: 0.07em;
-}
-  
-p {
-  font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: -0.015em;
-
 }
 
 h2 {
