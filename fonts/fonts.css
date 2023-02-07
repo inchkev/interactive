@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'PP Fragment Sans';
+  src: url('PPFragment-SansThin.woff2') format('woff2'),
+       url('PPFragment-SansThin.woff') format('woff'); 
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'PP Fragment Sans';
+  src: url('PPFragment-SansLight.woff2') format('woff2'),
+       url('PPFragment-SansLight.woff') format('woff'); 
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'PP Fragment Sans';
+  src: url('PPFragment-SansRegular.woff2') format('woff2'),
+       url('PPFragment-SansRegular.woff') format('woff'); 
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PP Fragment Glare';
+  src: url('PPFragment-GlareThin.woff2') format('woff2'),
+       url('PPFragment-GlareThin.woff') format('woff'); 
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'PP Fragment Glare';
+  src: url('PPFragment-GlareLight.woff2') format('woff2'),
+       url('PPFragment-GlareLight.woff') format('woff'); 
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'PP Fragment Glare';
+  src: url('PPFragment-GlareRegular.woff2') format('woff2'),
+       url('PPFragment-GlareRegular.woff') format('woff'); 
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PP Fragment Serif';
+  src: url('PPFragment-SerifThin.woff2') format('woff2'),
+       url('PPFragment-SerifThin.woff') format('woff'); 
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'PP Fragment Serif';
+  src: url('PPFragment-SerifLight.woff2') format('woff2'),
+       url('PPFragment-SerifLight.woff') format('woff'); 
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'PP Fragment Serif';
+  src: url('PPFragment-SerifRegular.woff2') format('woff2'),
+       url('PPFragment-SerifRegular.woff') format('woff'); 
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PP Fragment Text';
+  src: url('PPFragment-TextRegular.woff2') format('woff2'),
+       url('PPFragment-TextRegular.woff') format('woff'); 
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PP Fragment Text';
+  src: url('PPFragment-TextBold.woff2') format('woff2'),
+       url('PPFragment-TextBold.woff') format('woff'); 
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Steps Mono';
+  src: url('Steps-Mono-Thin.otf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Steps Mono';
+  src: url('Steps-Mono.otf');
+  font-weight: 400;
+}
