@@ -43,6 +43,13 @@ header {
   text-align: center;
 }
 
-header p {
+header p, .footer p {
   font-size: 18px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  text-align: center;
 }
