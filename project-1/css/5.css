@@ -46,6 +46,7 @@ header a:hover, .footer a:hover {
 }
 a {
   color: black;
+  text-decoration-thickness: 0.05em;
 }
 a:hover {
   /* font-style: italic; */
@@ -77,20 +78,21 @@ a:hover {
 .title h1 {
   line-height: 1em;
   font-size: 6em;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 #alloy {
   font-family: 'PP Neue Montreal', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
 }
 #feral {
-  font-family: 'PP Fragment Serif', Times, serif;
-  font-weight: 400;
+  font-family: 'PP Fragment Glare', Times, serif;
+  font-weight: 500;
 }
 #paper {
   font-family: 'Times Now', Times, serif;
-  font-weight: 600;
+  font-weight: 300;
+  letter-spacing: -0.02em;
 }
 .title h2 {
   font-weight: normal;
