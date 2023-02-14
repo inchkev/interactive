@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Steps Mono';
+  src: url('../fonts/Steps-Mono.otf') format('otf');
+}
+
+p {
+  font-family: "PP Editorial New", serif;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.5em;
+}
+p b {
+  font-weight: 400;
+}
+
+h2, h3, h5 {
+  font-family: "PP Editorial New", serif;
+}
+h4 {
+  line-height: 0;
+  font-size: 0.75em;
+  font-family: "Akkurat Mono", monospace;
+  font-weight: 200;
+  color: #aaaaaa;
+  letter-spacing: 0.07em;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  /* text-transform: uppercase; */
+}
+
+h3 {
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+
+h5 {
+  font-weight: 300;
+}
+
+.super {
+  font-size: 0.83em;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}

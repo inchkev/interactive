@@ -75,3 +75,40 @@
   src: url('Steps-Mono.otf');
   font-weight: 400;
 }
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('PPNeueMontreal-Bold.woff2') format('woff2'),
+       url('PPNeueMontreal-Bold.woff') format('woff'); 
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('PPNeueMontreal-BoldItalic.woff2') format('woff2'),
+       url('PPNeueMontreal-BoldItalic.woff') format('woff'); 
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Times Now';
+  src: url('Times Now SemiLight.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Times Now';
+  src: url('Times Now SemiLight Italic.otf');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Times Now';
+  src: url('Times Now SemiBold.otf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Times Now';
+  src: url('Times Now SemiBold Italic.otf');
+  font-weight: 600;
+  font-style: italic;
+}

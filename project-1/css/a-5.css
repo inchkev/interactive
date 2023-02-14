@@ -1,0 +1,125 @@
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title, .content {
+  border: 1px solid transparent;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
+  font-size: 20px;
+  line-height: 1.25em;
+  margin: 0;
+  font-weight: 300;
+}
+
+header p, .footer p {
+  font-size: 1em;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+header a, .footer a {
+  color: inherit;
+  text-decoration: none;
+}
+header a:hover, .footer a:hover {
+  text-decoration: underline;
+  font-style: normal;
+}
+a {
+  color: black;
+}
+a:hover {
+  font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+  height: 100vh;
+}
+
+#alloy {
+  margin-top: 1.2em;
+  font-size: 8em;
+  line-height: 1em;
+  letter-spacing: 0.025em;
+  font-family: 'PP Neue Montreal', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#feral {
+  margin-top: 1.2em;
+  font-size: 8em;
+  line-height: 1em;
+  letter-spacing: 0.025em;
+  font-family: 'PP Fragment Glare', Times, serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+h2 {
+  margin-top: 2em;
+  font-weight: normal;
+}
+
+.content {
+  margin: 0;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+
+a {
+  /* color: #FF431A; */
+}
+
+.super {
+  font-size: 0.83em;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
+
+.foreword {
+  /* font-style: italic; */
+  font-family: mono;
+  margin: 0 auto 4em auto;
+  color: #333333;
+}
+.foreword p {
+  font-style: italic;
+}
+.foreword p em {
+  font-style: normal;
+}
