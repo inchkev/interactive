@@ -139,3 +139,15 @@ h5 {
   margin-top: 5em;
   text-align: center;
 }
+
+.inline-img {
+  display: inline block;
+  /* float: right; */
+  position: absolute;
+  height: 7em;
+  width: auto;
+  z-index: -1;
+  opacity: 0.2;
+  outline: 1px solid black;
+  outline-offset: 5px;
+}
