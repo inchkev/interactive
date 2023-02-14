@@ -17,6 +17,7 @@ body {
 p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
   font-size: 26px;
   line-height: 1.25em;
+  letter-spacing: -0.001em;
   margin: 0;
   font-weight: 300;
 }
