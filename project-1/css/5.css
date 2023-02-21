@@ -191,16 +191,11 @@ h5 {
   transition: 0.35s;
 
   border: 4px solid transparent;
-
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
 }
 .inline-img:hover {
   opacity: 1.0;
   transition: 0.4s;
   border: 4px solid black;
-  filter: none;
-  -webkit-filter: none;
 }
 .arrow::before {
   content: " →";
