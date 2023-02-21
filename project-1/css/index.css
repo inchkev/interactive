@@ -41,6 +41,7 @@ h1 {
 
 p {
   text-align: center;
+  line-height: 1.1em;
 }
 
 a {
@@ -72,6 +73,6 @@ header p, .footer p {
 
 @media screen and (max-width: 600px) {
   p {
-    font-size: 44px;
+    font-size: 40px;
   }
 }
