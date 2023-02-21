@@ -84,18 +84,19 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.025em;
 }
-/* #alloy { */
-/*   background-image: url("img/alloy-background.jpg"); */
-/* } */
-#alloy {
+
+#alloy .background-image {
+  background-image: url("../img/alloy-background.jpg");
+}
+#alloy h1 {
   font-family: 'PP Neue Montreal', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
-#feral {
+#feral h1 {
   font-family: 'PP Fragment Glare', Times, serif;
   font-weight: 500;
 }
-#paper {
+#paper h1 {
   font-family: 'Times Now', Times, serif;
   font-weight: 300;
   letter-spacing: -0.02em;
@@ -156,6 +157,7 @@ a {
 
 h5 {
   margin-top: 5em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -164,17 +166,17 @@ h5 {
     margin-left: 1.5em;
     margin-right: 1.5em;
   }
-  #alloy {
+  #alloy h1 {
     font-size: 3em;
   }
-  #feral, #paper {
+  #feral h1, #paper h1{
     font-size: 4.5em;
   }
   .foreword {
     margin-left: 0;
     margin-right: 0;
   }
-  p, h5 {
+  p {
     font-size: 1.4em;
   }
 }
@@ -192,8 +194,8 @@ h5 {
 
   border: 4px solid transparent;
 
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 .inline-img:hover {
   opacity: 1.0;
@@ -222,4 +224,24 @@ h5 {
     content: " ↓";
     font-size: 1em;
   }
+}
+
+#alloy-background {
+  background-color: #f6bd16;
+}
+#feral-background {
+  background-color: #598868;
+}
+#paper-background {
+  background-color: #a9a9a0;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
