@@ -59,7 +59,7 @@ $(document).one('click', function() {
     $('#audio2').animate({volume: 0.2}, 1000);
     $('#audio4').animate({volume: 0.06}, 4000);
     $('#audio5').animate({volume: 0.10}, 3000);
-    $('.container').css('background', 'linear-gradient(180deg, rgba(207, 235, 251, 0.8) 0%, rgba(227, 227, 227, 0.6) 70.83%, rgba(214, 234, 195, 0.6) 100%)');
+    $('.container').css('background', 'linear-gradient(180deg, rgba(198, 234, 255, 0.8) 0%, rgba(241, 241, 241, 0.6) 70.83%, rgba(202, 225, 179, 0.6) 100%)');
 
     for (let i = 0; i < 1000; i++) {
       var r = Math.random();
