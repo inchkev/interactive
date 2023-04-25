@@ -31,7 +31,7 @@ $(document).one('click', function() {
     $('#audio2').animate({volume: 0.65}, 1000);
     $('.container').css('background', 'linear-gradient(180deg, #A6DEFD 0%, rgba(251, 255, 238, 0.2) 70.83%, #BAEBA9 100%)');
 
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 1500; i++) {
       var r = Math.random();
       var text;
       if (r < 0.90) {
