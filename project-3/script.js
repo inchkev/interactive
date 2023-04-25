@@ -55,7 +55,7 @@ $(document).one('click', function() {
     }
 
   } else if (pollen == 2) {
-    $('#audio1').animate({volume: 0.025}, 1000);
+    $('#audio1').animate({volume: 0.02}, 1000);
     $('#audio2').animate({volume: 0.2}, 1000);
     $('#audio4').animate({volume: 0.06}, 4000);
     $('#audio5').animate({volume: 0.10}, 3000);
