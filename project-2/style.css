@@ -38,7 +38,7 @@ h1, h2 {
 }
 
 .column {
-  flex: 3;
+  flex: 4;
 }
 .column:last-child {
   flex: 6;
