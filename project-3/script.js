@@ -6,7 +6,7 @@ let audio4 = document.getElementById("audio4");
 let audio5 = document.getElementById("audio5");
 
 
-let pollen = 1;
+let pollen = 2;
 
 
 $(document).one('click', function() {
@@ -161,6 +161,7 @@ $(document).one('click', function() {
 
   // $('.welcome').fadeOut(1);
   $('.welcome').fadeOut(3000);
+  // $('.info').fadeIn(1000);
 });
 
 
