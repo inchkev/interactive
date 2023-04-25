@@ -112,3 +112,9 @@
        url('ABCGaisyrMono-Regular.woff') format('woff');
   font-weight: 400;
 }
+@font-face {
+  font-family: 'ABC Gaisyr Mono';
+  src: url('ABCGaisyrMono-Medium.woff2') format('woff2'),
+       url('ABCGaisyrMono-Medium.woff') format('woff');
+  font-weight: 600;
+}

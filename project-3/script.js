@@ -110,8 +110,12 @@ $(document).one('click', function() {
     for (let i = 0; i < 1000; i++) {
       var r = Math.random();
       var text;
-      if (r < 0.65) {
+      if (r < 0.64) {
         text = "";
+      } else if (r < 0.64) {
+        text = "/";
+      } else if (r < 0.65) {
+        text = "\\";
       } else if (r < 0.67) {
         text = "*";
       } else if (r < 0.69) {
