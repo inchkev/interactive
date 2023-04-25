@@ -17,4 +17,7 @@ document.body.onkeydown = function(keypress_event){
   console.log(link);
   var audio = new Audio(link);
   audio.play();
+
+  var objDiv = document.getElementById("main");
+  key_display.scrollLeft(1);
 };

@@ -105,3 +105,10 @@
   font-weight: 600;
   font-style: italic;
 }
+
+@font-face {
+  font-family: 'ABC Gaisyr Mono';
+  src: url('ABCGaisyrMono-Regular.woff2') format('woff2'),
+       url('ABCGaisyrMono-Regular.woff') format('woff');
+  font-weight: 400;
+}

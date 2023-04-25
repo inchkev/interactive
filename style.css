@@ -2,20 +2,41 @@ html, body, main {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+* {
+  /* border: 1px solid red; */
 }
 
 body {
-  font-family: 'PP Fragment Glare', 'Times New Roman', Times, serif;
+  font-family: 'PP Fragment Sans', 'Times New Roman', Times, serif;
   /* background-color: orangered; */
 }
 
 p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
-  font-size: 70px;
+  font-size: 20px;
   margin: 0;
-  line-height: 1.1em;
+  line-height: 1.35em;
   font-weight: 300;
 }
 
-h1 {
+h1, h2 {
   font-weight: 400;
+  /* margin-bottom: 0.15em; */
+}
+
+.container {
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+}
+
+a, a:visited {
+  color: green;
 }
