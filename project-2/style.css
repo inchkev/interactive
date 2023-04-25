@@ -1,0 +1,68 @@
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+body {
+  font-family: 'PP Fragment Sans', 'Times New Roman', Times, serif;
+  /* background-color: orangered; */
+}
+
+p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.35em;
+  font-weight: 300;
+}
+
+h1, h2 {
+  font-weight: 400;
+  /* margin-bottom: 0.15em; */
+}
+
+.container {
+  width: 90%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+}
+
+.column {
+  flex: 3;
+}
+.column:last-child {
+  flex: 6;
+}
+.column:first-child {
+  flex: 1;
+}
+
+a, a:visited {
+  color: green;
+}
+
+.media-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em 1em;
+  margin-top: 0.75em;
+  margin-bottom: 1.25em;
+}
+
+img,
+video {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  object-position: center top;
+}
