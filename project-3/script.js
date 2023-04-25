@@ -64,7 +64,7 @@ $(document).one('click', function() {
     for (let i = 0; i < 1000; i++) {
       var r = Math.random();
       var text;
-      if (r < 0.80) {
+      if (r < 0.82) {
         text = "";
       } else if (r < 0.83) {
         text = "*";
@@ -80,7 +80,11 @@ $(document).one('click', function() {
         text = '"';
       } else if (r < 0.92) {
         text = "`";
+      } else if (r < 0.925) {
+        text = "/";
       } else if (r < 0.93) {
+        text = "\\";
+      } else if (r < 0.94) {
         text = "⚘";
       } else if (r < 0.95) {
         text = "❀";
