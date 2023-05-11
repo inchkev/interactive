@@ -5,6 +5,7 @@
 *.swp
 build/
 temp/
+.vscode
 
 # Swap
 [._]*.s[a-v][a-z]
