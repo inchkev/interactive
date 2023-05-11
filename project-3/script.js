@@ -67,7 +67,7 @@ $(document).one('click', function() {
 
     setInterval(function() {
       removeElement();
-    }, 3000);
+    }, 2000);
 
   } else if (pollen == 2) {
     $("#treepollen").text("MODERATE");
@@ -121,7 +121,7 @@ $(document).one('click', function() {
 
     setInterval(function() {
       removeElement();
-    }, 1250);
+    }, 1000);
 
   } else if (pollen == 3) {
     $("#treepollen").text("HIGH");
