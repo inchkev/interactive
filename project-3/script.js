@@ -59,11 +59,15 @@ $(document).one('click', function() {
         text = "☘";
       }
       if (text) {
-        $('.grid').append(`<p>${text}</p>`);
+        $('#grid').append(`<p>${text}</p>`);
       } else {
-        $('.grid').append(`<span></span>`);
+        $('#grid').append(`<span></span>`);
       }
     }
+
+    setInterval(function() {
+      removeElement();
+    }, 3000);
 
   } else if (pollen == 2) {
     $("#treepollen").text("MODERATE");
@@ -109,11 +113,15 @@ $(document).one('click', function() {
         text = "☘";
       }
       if (text) {
-        $('.grid').append(`<p>${text}</p>`);
+        $('#grid').append(`<p>${text}</p>`);
       } else {
-        $('.grid').append(`<span></span>`);
+        $('#grid').append(`<span></span>`);
       }
     }
+
+    setInterval(function() {
+      removeElement();
+    }, 1250);
 
   } else if (pollen == 3) {
     $("#treepollen").text("HIGH");
@@ -173,11 +181,15 @@ $(document).one('click', function() {
         text = "☘";
       }
       if (text) {
-        $('.grid').append(`<p>${text}</p>`);
+        $('#grid').append(`<p>${text}</p>`);
       } else {
-        $('.grid').append(`<span></span>`);
+        $('#grid').append(`<span></span>`);
       }
     }
+
+    setInterval(function() {
+      removeElement();
+    }, 500);
 
   } else {
   }
@@ -196,3 +208,15 @@ $(document).one('click', function() {
 // ).on('mouseleave', 'p', function() {
 // });
 
+
+
+
+// Function to remove the last element from the grid
+function removeElement() {
+  const grid = document.getElementById('grid');
+  const lastElement = grid.lastElementChild; // Get the last child element of the grid
+  if (lastElement) {
+    grid.removeChild(lastElement); // Remove the last element from the grid
+    grid.prepend(lastElement);
+  }
+}
