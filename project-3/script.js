@@ -72,10 +72,10 @@ $(document).one('click', function() {
   } else if (pollen == 2) {
     $("#treepollen").text("MODERATE");
     $("#grasspollen").text("MODERATE");
-    $('#audio1').animate({volume: 0.01}, 1000);
+    $('#audio1').animate({volume: 0.00}, 1000);
     $('#audio2').animate({volume: 0.10}, 1000);
     $('#audio4').animate({volume: 0.02}, 4000);
-    $('#audio5').animate({volume: 0.28}, 3000);
+    $('#audio5').animate({volume: 0.35}, 3000);
     $('.container').css('background', 'linear-gradient(180deg, rgba(182, 203, 216, 1.0) 0%, rgba(251, 255, 238, 0.2) 70.83%, rgba(172, 184, 139, 1.0) 100%)');
 
     for (let i = 0; i < 1000; i++) {
@@ -127,7 +127,7 @@ $(document).one('click', function() {
     $("#treepollen").text("HIGH");
     $("#grasspollen").text("HIGH");
     $('#audio4').animate({volume: 0.02}, 4000);
-    $('#audio5').animate({volume: 0.62}, 3000);
+    $('#audio5').animate({volume: 0.70}, 3000);
     $('.container').css('background', 'linear-gradient(180deg, rgba(213, 213, 216, 1.0) 0.0%, rgba(255, 255, 255, 0.8) 70.83%, rgba(130, 139, 126, 1.0) 100%)');
 
     for (let i = 0; i < 1000; i++) {
