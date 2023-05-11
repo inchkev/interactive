@@ -3,16 +3,12 @@ html, body, main {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px;
-}
-
-* {
-  /* border: 1px solid red; */
+  font-size: 20px;
+  background-color: whitesmoke;
 }
 
 body {
-  font-family: 'PP Fragment Sans', 'Times New Roman', Times, serif;
-  /* background-color: orangered; */
+  font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
@@ -24,7 +20,6 @@ p, h1, h2, h3, h4, h5, h6, th, td, li, ul, ol{
 
 h1, h2 {
   font-weight: 400;
-  /* margin-bottom: 0.15em; */
 }
 
 .container {
@@ -36,6 +31,25 @@ h1, h2 {
   gap: 10px;
   margin: 10px;
 }
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+a, a:visited {
+  color: green;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
 
 .column {
   flex: 4;
@@ -45,10 +59,6 @@ h1, h2 {
 }
 .column:first-child {
   flex: 1;
-}
-
-a, a:visited {
-  color: green;
 }
 
 .media-grid-2 {
