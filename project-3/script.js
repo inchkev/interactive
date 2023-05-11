@@ -6,10 +6,19 @@ let audio4 = document.getElementById("audio4");
 let audio5 = document.getElementById("audio5");
 
 
-let pollen = 2;
-
-
 $(document).one('click', function() {
+  var userInput;
+
+  while (true) {
+    userInput = prompt("Enter 1, 2, or 3 to simulate low, moderate, and high pollen levels.")
+    if (userInput === "1" || userInput === "2" || userInput === "3") {
+      break; // Break out of the loop if the input is valid
+    }
+    alert("Invalid input. Please enter 1, 2, or 3.");
+  }
+  let pollen = parseInt(userInput);
+  
+  if (!isNaN())
   audio1.muted = false;
   audio2.muted = false;
   audio3.muted = false;
@@ -27,9 +36,11 @@ $(document).one('click', function() {
   audio5.play();
 
   if (pollen == 1) {
+    $("#treepollen").text("LOW");
+    $("#grasspollen").text("LOW");
     $('#audio1').animate({volume: 0.2}, 1000);
     $('#audio2').animate({volume: 0.65}, 1000);
-    $('.container').css('background', 'linear-gradient(180deg, #A6DEFD 0%, rgba(251, 255, 238, 0.2) 70.83%, #BAEBA9 100%)');
+    $('.container').css('background', 'linear-gradient(180deg, #8AD2FB 0%, rgba(251, 255, 238, 0.2) 70.83%, #81CD67 100%)');
 
     for (let i = 0; i < 1500; i++) {
       var r = Math.random();
@@ -55,11 +66,13 @@ $(document).one('click', function() {
     }
 
   } else if (pollen == 2) {
-    $('#audio1').animate({volume: 0.02}, 1000);
-    $('#audio2').animate({volume: 0.2}, 1000);
-    $('#audio4').animate({volume: 0.06}, 4000);
-    $('#audio5').animate({volume: 0.10}, 3000);
-    $('.container').css('background', 'linear-gradient(180deg, rgba(198, 234, 255, 0.8) 0%, rgba(241, 241, 241, 0.6) 70.83%, rgba(202, 225, 179, 0.6) 100%)');
+    $("#treepollen").text("MODERATE");
+    $("#grasspollen").text("MODERATE");
+    $('#audio1').animate({volume: 0.01}, 1000);
+    $('#audio2').animate({volume: 0.10}, 1000);
+    $('#audio4').animate({volume: 0.02}, 4000);
+    $('#audio5').animate({volume: 0.28}, 3000);
+    $('.container').css('background', 'linear-gradient(180deg, rgba(182, 203, 216, 1.0) 0%, rgba(251, 255, 238, 0.2) 70.83%, rgba(172, 184, 139, 1.0) 100%)');
 
     for (let i = 0; i < 1000; i++) {
       var r = Math.random();
@@ -103,9 +116,11 @@ $(document).one('click', function() {
     }
 
   } else if (pollen == 3) {
-    $('#audio4').animate({volume: 0.05}, 4000);
-    $('#audio5').animate({volume: 0.21}, 3000);
-    $('.container').css('background', 'linear-gradient(180deg, rgba(219, 233, 240, 0.8) 13.54%, rgba(207, 207, 207, 0.5) 70.83%, rgba(205, 210, 197, 0.6) 100%)');
+    $("#treepollen").text("HIGH");
+    $("#grasspollen").text("HIGH");
+    $('#audio4').animate({volume: 0.02}, 4000);
+    $('#audio5').animate({volume: 0.62}, 3000);
+    $('.container').css('background', 'linear-gradient(180deg, rgba(213, 213, 216, 1.0) 0.0%, rgba(255, 255, 255, 0.8) 70.83%, rgba(130, 139, 126, 1.0) 100%)');
 
     for (let i = 0; i < 1000; i++) {
       var r = Math.random();
